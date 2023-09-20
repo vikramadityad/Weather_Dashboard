@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Weather Dashboard</h1>
+    </header>
+
+    <div class="container">
+        <div class="left_container">
+
+            <div class="search">
+                <h2> Search for a City: </h2>
+                <form>
+                    <div class="mb-3">
+                        <input type="text" id="city-input" placeholder="Enter city name">
+                    </div>
+                    <button type="submit" class="btn btn-primary ">Submit</button>
+                </form>
+
+            </div>
+
+            <div class="solid_line">
+
+            </div>
+            <div class="hist_container">
+
+                <div>
+                    <button type="button" class="btn btn-secondary history">Atlanta</button>
+                </div>
+
+                <div>
+                    <button type="button" class="btn btn-secondary history">Denver</button>
+                </div>
+
+                <div>
+                    <button type="button" class="btn btn-secondary history">Atlanta</button>
+                </div>
+
+                <div>
+                    <button type="button" class="btn btn-secondary history">Atlanta</button>
+                </div>
+
+                <div>
+                    <button type="button" class="btn btn-secondary history">Atlanta</button>
+                </div>
+
+                <div>
+                    <button type="button" class="btn btn-secondary history">Atlanta</button>
+                </div>
+
+                <div>
+                    <button type="button" class="btn btn-secondary history">Atlanta</button>
+                </div>
+
+                <div>
+                    <button type="button" class="btn btn-secondary history">Atlanta</button>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="right_container">
+
+            <div class="large_container">
+                <div class="current_weather">
+                    <h2 id="city">Atlanta </h2>
+                    <h2 id="date"> (9/13/2022) </h2>
+                    <p id="icon">*</p>
+                </div>
+                <p id="temp">Temp: 76.62F</p>
+                <p id="wind"> Wind: 8.43 MPH</p>
+                <p id="humidity"> Humidity: 44 %</p>
+            </div>
+
+            <div>
+                <h3> 5-Day Forecast:</h3>
+            </div>
+
+            <div class="small_bundle">
+                <div class="small_container">
+                    <h4 class="date1">Row column</h4>
+                    <p id="icon1">*</p>
+                    <p id="temp1">Temp: 76.62F</p>
+                    <p id="wind1"> Wind: 8.43 MPH</p>
+                    <p id="humidity1"> Humidity: 44 %</p>
+                </div>
+                <div class="small_container">
+                    <h4 class="date3">Row column</h4>
+                    <p id="icon2">*</p>
+                    <p id="temp2">Temp: 76.62F</p>
+                    <p id="wind2"> Wind: 8.43 MPH</p>
+                    <p id="humidity2"> Humidity: 44 %</p>
+                </div>
+                <div class="small_container">
+                    <h4 class="date3">Row column</h4>
+                    <p id="icon3">*</p>
+                    <p id="temp3">Temp: 76.62F</p>
+                    <p id="wind3"> Wind: 8.43 MPH</p>
+                    <p id="humidity3"> Humidity: 44 %</p>
+                </div>
+                <div class="small_container">
+                    <h4 class="date4">Row column</h4>
+                    <p id="icon4">*</p>
+                    <p id="temp4">Temp: 76.62F</p>
+                    <p id="wind4"> Wind: 8.43 MPH</p>
+                    <p id="humidity4"> Humidity: 44 %</p>
+                </div>
+                <div= class="small_container">
+                    <h4 class="date4">Row column</h4>
+                    <p id="icon5">*</p>
+                    <p id="temp5">Temp: 76.62F</p>
+                    <p id="wind5"> Wind: 8.43 MPH</p>
+                    <p id="humidity5"> Humidity: 44 %</p>
+            </div>
+
+
+        </div>
+
+    </div>
+    </div>
+
+
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,152 @@
+/* Reset some default browser styles */
+body, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    align-items: flex-start;
+}
+
+.container {
+    display: flex;
+    margin-left: 0px;
+    
+}
+
+.left_container {
+    flex: 1;
+    padding:20px;
+    
+    
+}
+
+.right_container {
+    flex: 1;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.large_container {
+    border-color: black;
+    border-style:groove;
+    padding: 20px;
+    margin-bottom:20px;
+    width: 800px;
+}
+
+.small_bundle {
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.small_container {
+    height: 180px;
+    width: 140px;
+    border-style: groove;
+    border-color: black;
+    padding: 10px;
+    background-color: #161420;
+}
+
+.small_container h4 {
+    text-align: left;
+}
+
+.small_container p {
+    color: white;
+    font-size: 13px;
+}
+.current_weather {
+display: flex;
+flex-direction: row;
+}
+
+header {
+    background-color: #382b99;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.solid_line {
+    width: 300px;
+    height: 2px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #b5b2b2;
+    position: relative;
+    border-radius: 5px;
+
+}
+
+h1, h2 {
+    font-weight: bold;
+  }
+
+h3 {
+    font-size: 150%;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 90%;
+    font-weight: bold;
+    color: white;
+}
+
+.search {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#city-input {
+    width: 300px;
+    height: 40px
+}
+
+.btn-primary {
+    padding: 10px 20px;
+    background-color: #5372d0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 300px;
+    height: 40px
+    
+}
+
+.hist_container {
+   
+}
+
+.history {
+    background-color: #b5b2b2;
+    font: black;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
