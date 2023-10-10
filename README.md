@@ -1,7 +1,5 @@
 # Weather_Dashboard
 
-![GitHub Repo Badge][(https://img.shields.io/badge/GitHub-Repo-blue?style=flat-square&logo=github)](https://github.com/vikramadityad/Weather_Dashboard)
-
 ## Table of Contents
 
 - [Introduction](#introduction)
