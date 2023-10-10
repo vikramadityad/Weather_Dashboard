@@ -58,6 +58,10 @@ If you would like to contribute to this project, please follow these guidelines:
    git push origin feature-name
 5. Create a pull request to the main repository.
 
+## Acknowledgement
+
+https://github.com/coding-boot-camp/crispy-octo-meme
+
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
