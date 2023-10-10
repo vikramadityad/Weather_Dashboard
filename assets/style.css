@@ -39,11 +39,13 @@ body {
     width: 800px;
 }
 
-.small_bundle {
+#small_bundle {
     width: 800px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .small_container {
@@ -130,7 +132,14 @@ input[type="text"] {
 }
 
 #hist_container {
-   
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-content: center;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
 }
 
 .history {
