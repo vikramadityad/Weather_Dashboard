@@ -24,15 +24,6 @@ Welcome to the Weather Dashboard repository! This project allows you to build a 
 - Maintain a search history of cities for quick access to weather information.
 - Click on a city in the search history to view current and future conditions for that city.
 
-## Screenshots
-<img width="1272" alt="Screenshot 2023-10-09 at 11 36 24 PM" src="https://github.com/vikramadityad/Weather_Dashboard/assets/28673859/3ddfbf41-c442-441f-b168-18f7ae6b0125">
-<img width="1275" alt="Screenshot 2023-10-09 at 11 36 43 PM" src="https://github.com/vikramadityad/Weather_Dashboard/assets/28673859/e70fe693-b129-4c4d-8bb6-585d89808110">
-
-
-## liveURL
-
-https://vikramadityad.github.io/Weather_Dashboard/
-
 ## Usage
 
 To use this Weather Dashboard, follow these steps:
@@ -47,7 +38,15 @@ To use this Weather Dashboard, follow these steps:
 4. View current weather conditions and a 5-day forecast for the selected city.
 5. Click on a city in the search history to quickly access its weather data.
 
-Contributing
+## Screenshots
+<img width="1272" alt="Screenshot 2023-10-09 at 11 36 24 PM" src="https://github.com/vikramadityad/Weather_Dashboard/assets/28673859/3ddfbf41-c442-441f-b168-18f7ae6b0125">
+<img width="1275" alt="Screenshot 2023-10-09 at 11 36 43 PM" src="https://github.com/vikramadityad/Weather_Dashboard/assets/28673859/e70fe693-b129-4c4d-8bb6-585d89808110">
+
+## liveURL
+
+https://vikramadityad.github.io/Weather_Dashboard/
+
+## Contributing
 If you would like to contribute to this project, please follow these guidelines:
 
 1. Fork the repository.
